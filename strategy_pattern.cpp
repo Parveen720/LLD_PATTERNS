@@ -93,7 +93,7 @@ class Robot{
    }
    virtual void projection()=0;
 };
-
+ 
 class CompanioinRobot: public Robot{
     public:
     CompanioinRobot(WalkableRobot* w,TalkableRobot* t,FlyableRobot* f):Robot(w,t,f){}
